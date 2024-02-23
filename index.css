@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+
+body {
+    margin: 0;
+   background-color:white;
+   font-family: "Courgette", cursive;
+   background-color: rgb(36, 33, 33);
+ 
+
+
+} 
+
+.contianer{
+    max-width: 50%;
+    background-image: url(images/R.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: -4%;
+    
+
+   
+  
+}
+
+.headerimg{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+    color: yellow;
+  
+}
+.maintitl{
+    position: absolute;
+    top:30%;
+    left: 3%;
+    font-size: 20px;
+}
+
+
+.main{
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 3%;
+    width: 50%;
+    
+
+}
+.header2{
+    font-size: 2em;
+    font-weight: 300;
+    color: yellow;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.img1{
+    max-width:110px;
+    /* height:40%; */
+    border-radius: 50%;
+}
+
+  .menutitle{
+   /* margin-top: -0%; */
+    color:yellow;
+    padding-top: 2%;
+    
+   
+    
+   
+  }
+
+ .breakfast{
+    display: flex;
+    margin: 4%;
+    gap:5%;
+     border-bottom:1px solid yellow;
+     padding-bottom: 1%;
+   
+  
+
+  
+ }
+
+ span{
+    font-size:15px;
+    color: rgb(155, 155, 28);
+    padding-left: 1%;
+
+     
+    
+}
+.price{
+   color: yellow;
+   font-size: 20px;
+ 
+}
+#btnorder{
+    margin-top: 10%;
+  
+    margin-left: 10%;
+    width: 20%;
+    /* position: absolute;
+    top:30%; */
+
+    
+}
+
+#btnorder #btn {
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    cursor: pointer;
+   
+}
+
+.order{
+   
+    width: 50%;
+    margin: auto;
+    color:yellow;
+    margin-top: 5%;
+    font-size: 15px;
+ 
+  
+    
+}
+
+.order h2{
+    text-align: center;
+    
+}
+.ordercontent{
+    display: flex;
+    gap:50%;
+    border-bottom: 1px solid yellow;
+}
+
+.ordertext{
+    font-size: 15px;
+    padding-left: 5%;
+    color:yellowgreen;
+    cursor: pointer;
+
+}
+
+.orderprice{
+    margin-top: 10%;
+    font-size: 30px;
+    color: yellow;
+}
+
+#btnorder2{
+    text-align: center;
+    margin-top: 5%;
+
+    
+}
+
+#btnor{
+    background-color: yellow;
+    border: 1px solid yellow;
+   padding: 10px;
+    margin-bottom: 10%;
+    box-shadow: 2px 0px 10px 0px rgb(189, 189, 5);
+    cursor: pointer;
+}
+
+.model{
+    /* border: 1px solid red; */
+    position:fixed;
+    bottom:0;
+    top:2%;
+    left:40%;
+    margin:0 auto;
+    height: 300px;
+    width: 350px;
+    background-color: yellow;
+    color:yellowgreen;
+    box-shadow: 0px 0px 6px 2px #e9fc81;
+    padding: 2%;
+    display: none;
+
+
+}
+
+input{
+    margin-top: 10px; 
+    border: 1px solid yellow;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+  
+}
+
+.headermodal{
+    text-align: center;
+}
+
+.btnmodel{
+    /* padding: 10px 24px; */
+
+   margin-top: 3%;
+    outline: 3px solid yellowgreen;
+   
+}
+
+#modelbtn{
+    background-color:yellowgreen;
+    color:rgb(27, 27, 27);
+    width: 100%;
+    padding: 3%;
+    border: 2px solid yellowgreen;;
+    cursor: pointer;
+}
+
+
+#massage{
+  
+    color:yellowgreen;
+    font-weight: 300;
+    padding: 5%;
+    text-align: center;
+    margin: 3%;
+    display: none;
+}
